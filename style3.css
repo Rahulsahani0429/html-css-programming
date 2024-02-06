@@ -1,0 +1,29 @@
+.container{
+    height: 800px;
+    border: 1px solid yellow;
+    background-color: blue;
+    display: grid;
+    /*grid-template-rows: 30px 150px 400px ;
+    grid-template-columns: 400px;*/
+    grid-template-columns: 200px 150px;
+    grid-template-rows: 100px 300px 150px;
+    grid-template-areas: 
+    " hd hr"
+     "pt td"
+    " br he";
+
+    
+}
+.box{
+    border: 1px solid red;
+    background-color: green;
+}
+#header{
+    grid-area: foogter;
+
+}
+#footer{
+    grid-area: image;
+    
+}
+    
