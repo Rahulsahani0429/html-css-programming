@@ -1,0 +1,34 @@
+.container{
+    height: 500px;
+    width: 600px;
+    background-color: red;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; it is work on the  horigonatl it is apply on parent like as the container*/
+    /* align-content: start ; it is work to the verlical it is also work on the parent
+
+    align-content: end; 
+    align-content: space-around;*/
+    /* align-items: start;
+    align-items:end;
+     */
+     place-content:c;
+
+
+    
+
+
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
