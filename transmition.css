@@ -1,0 +1,28 @@
+.container{
+    border: 2px solid yellow;
+    height: 500px;
+    width: 400px;
+    background-color:green;
+    display: flex;
+
+}
+.box{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    transition:2s ;
+    transition:all 10s ease 2s;
+    text-align: center;
+    color: yellow;
+
+}
+.box:hover{
+    background-color:hotpink;
+    transform: rotate(360deg);
+   
+  
+
+
+}
+
