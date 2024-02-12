@@ -1,0 +1,39 @@
+.container{
+    border: 2px solid yellow;
+    height: 500px;
+    width: 400px;
+    background-color:green;
+    display: flex;
+
+}
+.box{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    text-align: center;
+    /* transition:2s ; */
+    /* transition:all 10s ease 2s; */
+    transition: transform 3s ease-in; 
+    /* ease in transition is stating transition is slow and end trasition is fast*/ 
+    transition: transform 10s ease-out;
+    /* ease out transition is stating transition is fast and end trasition is slow */ 
+
+
+
+
+}
+.box:hover{
+    background-color:hotpink;
+
+    /* transform: rotate(360deg); */
+    transform:  scale(2)   translate(500px) rotate(360deg);
+    /*  rotate (any number in degree)  is use to rotate the any thisns */
+    /*scale(2,4) is use to increase the size to  content or image ,box,etc */
+}
+.boxchild{
+    transform: rotate(90deg);
+    height: 150px;
+    width: 150px;
+}
+
