@@ -1,0 +1,27 @@
+:root{
+     --dark:red; /* this is the global variable  it is always use to the parent or root    */
+}
+.container{
+    border: 1px solid red;
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    background-color:var(--dark);
+    
+    
+    
+    
+
+}
+
+   
+.box{
+    border:2px solid green;
+    background-color:aqua;
+    --dark:red   ;
+    color: var(--dark);/*this is the local variable it is only use for the content ,div , class */
+    
+    
+
+
+}
