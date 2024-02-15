@@ -1,0 +1,55 @@
+.container{
+    border: 1px solid red   ;
+    height: 250px;
+    width: 100%;
+    background-color: yellow;
+
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: 1px solid green;
+    background-color:hotpink;
+    animation-name: rahul;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+    animation-timing-function:ease-in;
+    animation-delay: 1s;
+    /* animation-direction: reverse;this animation is also use to the reverse the operation */
+    animation-direction: alternate;/*this function is use to right to left and left to right tranmition */
+
+    }
+/* @keyframes rahul {
+    from{
+        width: 250px;
+
+    }
+    to{
+        width: 900px;
+    }
+} */
+@keyframes rahul {
+    0%{
+        width: 250px;
+        background-color:violet;
+
+    }
+    30%{
+        width: 35%;
+        background-color: red;
+    }
+    60%{
+        width: 65%;
+        background-color:aqua;
+    }
+    70%{
+        width: 75%;
+        background-color: green;
+    }
+    100%{
+        width: 100%;
+        background-color: chartreuse;
+    }
+
+    
+}
