@@ -1,0 +1,19 @@
+.container{
+    height: 800px;
+    border: 1px solid yellow;
+    background-color: blue;
+    display: grid;
+    /*grid-template-rows: 30px 150px 400px ;
+    grid-template-columns: 400px;*/ 
+    grid-auto-rows: minmax(100px ,auto);/* it means minimum row size is 100px amd maxmum auto */
+    grid-template-columns: repeat(4 ,1fr);
+
+    
+    
+}
+.box{
+    border: 1px solid red;
+    background-color: green;
+
+}
+    
