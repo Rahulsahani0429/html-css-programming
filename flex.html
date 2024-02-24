@@ -1,0 +1,64 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>  
+CSS flex Property  
+</title>  
+  
+<style>  
+.container {  
+width: 200px;  
+height: 100px;  
+border: 1px solid black;  
+display: flex;  
+margin: 15px;  
+background-color: blue;  
+}  
+  
+.flex-item{  
+flex: 1; // unitless number: flex-grow  
+}  
+.flex-item1{  
+flex: 0 50px; // flex-grow, flex-basis  
+}  
+.flex-item2{  
+flex: 2 2; // flex-grow, flex-shrink  
+}  
+.flex-item, .flex-item1, .flex-item2 {  
+background-color: lightblue;  
+margin: 4px;  
+}  
+</style>  
+</head>  
+  
+<body>  
+<h1> CSS flex Property </h1>  
+<h3> flex: 1; </h3>  
+<div class = "container">  
+<div class = "flex-item">  
+</div>  
+<div class = "flex-item">  
+</div>  
+<div class = "flex-item">  
+</div>  
+</div>  
+<h3> flex: 0 50px; </h3>  
+<div class = "container">  
+<div class = "flex-item1">  
+</div>  
+<div class = "flex-item1">  
+</div>  
+<div class = "flex-item1">  
+</div>  
+</div>  
+<h3> flex: 2 2; </h3>  
+<div class = "container">  
+<div class = "flex-item2">  
+</div>  
+<div class = "flex-item2">  
+</div>  
+<div class = "flex-item2">  
+</div>  
+</div>  
+</body>  
+</html>  
